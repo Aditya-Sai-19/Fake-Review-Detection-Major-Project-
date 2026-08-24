@@ -74,6 +74,9 @@ Prediction  Prediction
          ▼
    Combined Result
 ```
+<img width="300" height="168" alt="WhatsApp Image 2026-08-23 at 23 24 48 (1)" src="https://github.com/user-attachments/assets/b864d8e1-57e6-40e0-92e3-2504db78a2ce" />
+
+
 
 ---
 
@@ -244,6 +247,10 @@ The application will start at **http://127.0.0.1:9999**
 - **Login** — Retailers can log in to access the dashboard.
 - **View Classification** — Retailers can view all submitted reviews with their predicted ratings and sentiments, along with distribution graphs.
 
+<img width="640" height="480" alt="WhatsApp Image 2026-08-23 at 23 24 49" src="https://github.com/user-attachments/assets/5d76b78e-99c3-4878-b45c-59550cc0a405" />
+
+
+
 ---
 
 ## 🧠 How It Works
@@ -282,6 +289,9 @@ The training page displays the following metrics for both models:
 | Precision  | Correct positive predictions / all positive predictions  |
 | Recall     | Correct positive predictions / all actual positives      |
 | F-Score    | Harmonic mean of Precision and Recall                    |
+
+<img width="640" height="480" alt="WhatsApp Image 2026-08-23 at 23 24 48" src="https://github.com/user-attachments/assets/4ff2d85e-334e-4781-bfa9-501541152609" />
+
 
 ---
 
