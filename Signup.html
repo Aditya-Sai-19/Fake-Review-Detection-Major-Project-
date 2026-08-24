@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>Classify Amazon Food Reviews</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../static/style.css"/>
+<script language="javascript">
+	function checkFields(f1)
+	{
+	if(f1.t1.value.length==0)
+	{
+	alert("Please Enter retailer name");
+	f1.t1.focus();
+	return false;
+	}
+	if(f1.t3.value.length==0)
+	{
+	alert("Please Enter contact no");
+	f1.t3.focus();
+	return false;
+	}
+	if(isNaN(f1.t3.value)){
+		window.alert("Please enter valid contact number");
+		f1.t3.focus();
+		return false;
+	}
+	if(f1.t3.value.length!=10)
+	{
+	alert("contact no must be 10 digits long");
+	f1.t3.focus();
+	return false;
+	}
+	if(f1.t4.value.length==0)
+	{
+	alert("Please Enter address");
+	f1.t4.focus();
+	return false;
+	}
+	if(f1.t5.value.length==0)
+	{
+	alert("Please Enter email id");
+	f1.t5.focus();
+	return false;
+	}
+	var filter = /^([a-zA-Z0-9_\.\-])+\@(gmail+\.)+(com)+$/;
+	if (!filter.test(f1.t5.value)) {
+		window.alert('enter a valid email address');
+		f1.t5.focus();
+		return false;
+	}
+	
+	if(f1.t6.value.length==0)
+	{
+	alert("Please Enter username");
+	f1.t6.focus();
+	return false;
+	}
+	if(f1.t7.value.length==0)
+	{
+	alert("Please Enter password");
+	f1.t7.focus();
+	return false;
+	}
+	return true;
+	}
+	</script>
+</head>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h3><font size="3" color="white">A Hybrid Fuzzy Logic-based Deep Learning Approach for Fake Review Detection and Sentiment Classification of Amazon Food Reviews</font></h3>
+		</div>
+		<div id="slogan">
+			
+		</div>
+	</div>
+	<div id="menu">
+		<ul>
+<li class="active"><a href="index">Home</a></li>
+<li><a href="Train">Train Hybrid CNN & LSTM</a></li>	
+<li><a href="SubmitReview">Submit Your Reviews</a></li>
+<li><a href="Login">Retailer Login</a></li>
+<li><a href="Signup">Retailer Signup</a></li>
+		</ul>
+		<br class="clearfix" />
+				</div>
+			
+	
+			<center>
+			<form name="f1" action="/SignupAction" method="post" OnSubmit="return checkFields(this);">
+<br/>
+   <h2><b>Retailer Signup Screen</b></h2>
+   
+	<font size="" color="red"><center>{{ error }}</center></font>
+						
+						<table align="center" width="40" >
+			<tr><td><font size="" color="black">Retailer&nbsp;Name</b></td><td><input type="text" name="t1" style="font-family: Comic Sans MS" size="20"/></td></tr>
+
+			<tr><td><font size="" color="black">Gender</b></td><td><select name="t2">
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+			</td></tr>
+
+			<tr><td><font size="" color="black">Contact&nbsp;No</b></td><td><input type="text" name="t3" style="font-family: Comic Sans MS" size="10"/></td></tr>
+
+			<tr><td><font size="" color="black">Address</b></td><td><input type="text" name="t4" style="font-family: Comic Sans MS" size="50"/></td></tr>
+
+			<tr><td><font size="" color="black">Email&nbsp;ID</b></td><td><input type="text" name="t5" style="font-family: Comic Sans MS" size="30"/></td></tr>
+
+			<tr><td><font size="" color="black">Username</b></td><td><input type="text" name="t6" style="font-family: Comic Sans MS" size="30"/></td></tr>
+			<tr><td><font size="" color="black">Password</b></td><td><input type="password" name="t7" style="font-family: Comic Sans MS" size="30"/></td></tr>
+		 
+			<tr><td></td><td><input type="submit" value="Submit">
+			</td>
+
+			</table>
+				</div>	
+					<br/><br/><br/><br/><br/>
+				</div>
+				
+	</body>
+</html>

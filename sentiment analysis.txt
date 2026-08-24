@@ -1,0 +1,21 @@
+product is useless
+This is a simple and easy upgrade for your smart devices 3
+This ia worst product i have ever bought it on amazon 1
+Not very impressive at this price point 3
+Great value for price general purppose noise cancelling headphones 3
+Satisfactory noise cancellation headphones but horrible cable connectors and receptacles 1
+Great sound but bad for big heads and ears 2
+So happy i found these at such as low price 3
+Ear cup too small and uncomfortable 1
+This product is amazing 2
+Not for everyone. A little over a year in, I'm less and less impressed with this product 1
+Extreme battery life with forward and backward button and a great feel 3
+I am so happy, this product is amazing 3
+This product is terrible i am so sad 1
+
+https://www.youtube.com/watch?v=VXt9SQx5eM0
+
+preprocesssing, feature selection, KNN, Random Forest, SVM and decison tree
+
+dataset http://jmcauley.ucsd.edu/data/amazon
+precisn, recall fscore accuracy
